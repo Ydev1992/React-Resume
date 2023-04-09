@@ -39,13 +39,14 @@ import {
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
+import EmailIcon from '../components/Icon/EmailIcon';
 
 /**
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Software engineer',
+  description: "Portfolio site built with James Tomas",
 };
 
 /**
@@ -69,24 +70,24 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm James Tomas.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        <strong  className="text-stone-100">Senior blockchain developer</strong>  with 5+ years of experience
+        in developing decentralized applications using Solidity, Rust
+        Ethereum, and Hyperledger Fabric.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+      Strong technical skills combined with the ability to effectively communicate with cross-functional teams.
+      <br />
+      <strong className = "text-stone-100">Passionate about developing innovative blockchain solutions that drive business growth.</strong>
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'https://drive.google.com/file/d/1Qd5SDviNjM4Ht1PrwDxcr4Y6Dr54bcDS/view?usp=share_link',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -104,15 +105,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `With an entrepreneurial mindset and passion for creating cohesive, engaging experiences over 7 years. Enjoy contributing to all aspects of product creation, while being closely embedded in a team, or positioned as a sole contributor.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
+    {label: 'Location', text: 'Winnipeg, Canada', Icon: MapIcon},
+    {label: 'Age', text: '28', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Canadian / Japanese', Icon: FlagIcon},
+    {label: 'Interests', text: 'Motorcycles, Squash, Banjos', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Winnipeg', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
   ],
 };
@@ -126,14 +125,14 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
-        level: 10,
+        level: 8,
       },
       {
-        name: 'French',
+        name: 'Japanese',
         level: 4,
       },
       {
-        name: 'Spanish',
+        name: 'French',
         level: 3,
       },
     ],
@@ -143,15 +142,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 10,
       },
       {
         name: 'Typescript',
-        level: 7,
+        level: 9,
       },
       {
         name: 'GraphQL',
-        level: 6,
+        level: 8,
       },
     ],
   },
@@ -160,32 +159,32 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
+        level: 10,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Django',
+        level: 9,
       },
       {
         name: 'Golang',
-        level: 4,
+        level: 7,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Smart Contract',
     skills: [
       {
-        name: 'React Native',
+        name: 'Solidity',
+        level: 10,
+      },
+      {
+        name: 'Rust',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
+        name: 'Golang',
+        level: 7,
       },
     ],
   },
@@ -268,16 +267,12 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'September 2012 - May 2016',
+    location: 'Winnipeg, Manitoba',
+    title: 'COMPUTER SCIENCE',
+    content: <p>My experience at the <strong className = "text-stone-900">University of Winnipeg</strong>
+      was challenging, rewarding, and equipped me with the knowledge and skills necessary to pursue a career
+      in computer science with confidence.</p>,
   },
 ];
 
@@ -313,18 +308,18 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Aaron Hill',
+      text: ' James is senior developer with comments on the quality of code written, ability to troubleshoot and solve complex technical problems, depth of knowledge in relevant technologies, and overall efficiency of work',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      name: 'Henry Scott',
+      text: 'James contributions to group projects or problem-solving, willingness to share knowledge and expertise with others. As well as provides constructive criticism and feedback to team members.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'Client',
+      text: 'James is a passionate learner who is always sensitive to new technologies and is not afraid to learn new technology, ignoring all experiences for better solutions.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
@@ -336,27 +331,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: "Have a project for me? Any questions about something I've built? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'flyn.rider0x@gmail.com',
+      href: 'mailto:flyn.rider0x@gmail.me',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Winnipeg, Manitoba, Canada',
+      href: 'https://www.google.ca/maps/place/Winnipeg,+MB+R3C+4T6,+Canada/@49.8871837,-97.1314859,18z/data=!4m6!3m5!1s0x52ea714dd4ddd633:0x806e02a270afb160!8m2!3d49.8866758!4d-97.1306036!16s%2Fg%2F1tf653xr',
     },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
+    // {
+    //   type: ContactType.Instagram,
+    //   text: '@tbakerx',
+    //   href: 'https://www.instagram.com/tbakerx/',
+    // },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'olaf119',
+      href: 'https://github.com/olaf119',
     },
   ],
 };
@@ -365,9 +360,10 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  //{label: 'Github', Icon: GithubIcon, href: 'https://github.com/olaf119'},
+  //{label: 'Email', Icon: EmailIcon, href: ''},
+  //{label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  //{label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
+  //{label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
+  //{label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
