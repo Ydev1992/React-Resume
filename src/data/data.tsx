@@ -8,21 +8,16 @@ import {
   SparklesIcon,
 } from '@heroicons/react/outline';
 
-import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+// import GithubIcon from '../components/Icon/GithubIcon';
+// import InstagramIcon from '../components/Icon/InstagramIcon';
+// import LinkedInIcon from '../components/Icon/LinkedInIcon';
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
@@ -39,7 +34,7 @@ import {
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
-import EmailIcon from '../components/Icon/EmailIcon';
+//import EmailIcon from '../components/Icon/EmailIcon';
 
 /**
  * Page meta data
@@ -194,70 +189,70 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+  // {
+  //   title: 'Project title 1',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage1,
+  // },
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'tofuNft Marketplace',
+    description: "TofuNFT Marketplace is a digital platform for buying and selling unique non-fungible tokens (NFTs) that are inspired by Japanese culture, specifically tofu. The platform provides a secure and user-friendly interface for creators to list their NFTs for sale and for buyers to purchase them using cryptocurrency.",
+    url: 'https://tofunft.com/',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'MOMENTEUM swap',
+    description: "MOMENTEUM Swap's primary feature is its automated market maker (AMM) algorithm, which ensures liquidity for even the most obscure trading pairs. Users can also add liquidity to the platform and earn rewards in the form of MOMENT tokens, which can be used for trading or staking on the platform.",
+    url: 'https://momenteum.app/',
     image: porfolioImage3,
   },
+  // {
+  //   title: 'Project title 4',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage4,
+  // },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Front-End Project',
+    description: "The front-end includes features such as a dashboard displaying current trends in innovation, a directory of startups and entrepreneurs, and a library of resources that can be filtered by topic.",
+    url: 'https://innovaccion.app/',
     image: porfolioImage5,
   },
+  // {
+  //   title: 'Project title 6',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage6,
+  // },
+  // {
+  //   title: 'Project title 7',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage7,
+  // },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Full-Stack Project',
+    description: "We built Gameplan Apps to replace outdated methods of personal training and fitness course creation, for influencers, coaches, and trainers.To make fitness efficient.Our purpose at Gameplan Apps is to help influencers, trainers, and coaches reach new clients, build stronger relationships with their existing ones, and grow their revenue.",
+    url: 'https://www.gameplanapps.com/',
     image: porfolioImage10,
   },
   {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'AXIE Marketplace',
+    description: "The Axie Infinity Marketplace is a web-based platform that enables users to buy, sell, and trade Axies, the digital creatures used in the popular blockchain-based game Axie Infinity. The marketplace provides various features, including filters to sort Axies by rarity, level, breed, and other attributes, making it easy for users to find the perfect Axie to fit their needs.",
+    url: 'https://app.axieinfinity.com/',
+    image: porfolioImage8,
+  },
+  // {
+  //   title: 'Project title 9',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://timbaker.me',
+  //   image: porfolioImage9,
+  // },
+  {
+    title: 'Stacking Project',
+    description: 'KuCoin Staking is a platform that allows users to earn rewards for holding certain cryptocurrencies on the KuCoin exchange. The staking service provides users with an opportunity to earn passive income by participating in the validation of transactions on the blockchain network of supported coins, such as Polkadot (DOT), Cosmos (ATOM), and Tezos (XTZ). ',
+    url: 'https://www.kucoin.com/staking',
     image: porfolioImage11,
   },
 ];
