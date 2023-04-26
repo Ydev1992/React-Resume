@@ -35,7 +35,8 @@ const About: FC = memo(() => {
       </div>
     </Section>
   );
-});
+}); 
 
 About.displayName = 'About';
 export default About;
+  
