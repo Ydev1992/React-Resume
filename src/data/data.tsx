@@ -69,7 +69,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        <strong  className="text-stone-100">Senior blockchain developer</strong>  with 5+ years of experience
+        I am a results-driven <strong  className="text-stone-100">Senior full-stack engineer</strong>  with 7+ years of experience
         in developing decentralized applications using Solidity, Rust
         Ethereum, and Hyperledger Fabric.
       </p>
@@ -82,7 +82,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: "https://drive.google.com/file/d/1q1Cx-mja9ue3Bn4WL3mYs2CmiC1vC0iE/view?usp=share_link",
+      href: "https://drive.google.com/file/d/1jSP8tebErSB1AcD2ipHBEpkuosUyun2G/view?usp=share_link",
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -107,7 +107,7 @@ export const aboutData: About = {
     {label: 'Nationality', text: 'Canadian / Japanese', Icon: FlagIcon},
     {label: 'Interests', text: 'Motorcycles, Squash, Banjos', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Winnipeg', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Employment', text: 'Unemployed', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -133,24 +133,24 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Front-End',
     skills: [
       {
         name: 'React',
         level: 10,
       },
       {
-        name: 'Typescript',
+        name: 'Vue',
         level: 9,
       },
       {
-        name: 'GraphQL',
-        level: 8,
+        name: 'Angular',
+        level: 9
       },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Back-End',
     skills: [
       {
         name: 'Node.js',
@@ -196,13 +196,13 @@ export const portfolioItems: PortfolioItem[] = [
   //   image: porfolioImage1,
   // },
   {
-    title: 'tofuNft Marketplace',
+    title: 'TofunNft',
     description: "TofuNFT Marketplace is a digital platform for buying and selling unique non-fungible tokens (NFTs) that are inspired by Japanese culture, specifically tofu. The platform provides a secure and user-friendly interface for creators to list their NFTs for sale and for buyers to purchase them using cryptocurrency.",
     url: 'https://tofunft.com/',
     image: porfolioImage2,
   },
   {
-    title: 'MOMENTEUM swap',
+    title: 'Momenteum',
     description: "MOMENTEUM Swap's primary feature is its automated market maker (AMM) algorithm, which ensures liquidity for even the most obscure trading pairs. Users can also add liquidity to the platform and earn rewards in the form of MOMENT tokens, which can be used for trading or staking on the platform.",
     url: 'https://momenteum.app/',
     image: porfolioImage3,
@@ -214,7 +214,7 @@ export const portfolioItems: PortfolioItem[] = [
   //   image: porfolioImage4,
   // },
   {
-    title: 'Front-End Project',
+    title: 'Innovaccion',
     description: "The front-end includes features such as a dashboard displaying current trends in innovation, a directory of startups and entrepreneurs, and a library of resources that can be filtered by topic.",
     url: 'https://innovaccion.app/',
     image: porfolioImage5,
@@ -232,13 +232,13 @@ export const portfolioItems: PortfolioItem[] = [
   //   image: porfolioImage7,
   // },
   {
-    title: 'Full-Stack Project',
+    title: 'GamePlanapps',
     description: "We built Gameplan Apps to replace outdated methods of personal training and fitness course creation, for influencers, coaches, and trainers.To make fitness efficient.Our purpose at Gameplan Apps is to help influencers, trainers, and coaches reach new clients, build stronger relationships with their existing ones, and grow their revenue.",
     url: 'https://www.gameplanapps.com/',
     image: porfolioImage10,
   },
   {
-    title: 'AXIE Marketplace',
+    title: 'AXIE Infinity',
     description: "The Axie Infinity Marketplace is a web-based platform that enables users to buy, sell, and trade Axies, the digital creatures used in the popular blockchain-based game Axie Infinity. The marketplace provides various features, including filters to sort Axies by rarity, level, breed, and other attributes, making it easy for users to find the perfect Axie to fit their needs.",
     url: 'https://app.axieinfinity.com/',
     image: porfolioImage8,
@@ -250,9 +250,9 @@ export const portfolioItems: PortfolioItem[] = [
   //   image: porfolioImage9,
   // },
   {
-    title: 'Stacking Project',
-    description: 'KuCoin Staking is a platform that allows users to earn rewards for holding certain cryptocurrencies on the KuCoin exchange. The staking service provides users with an opportunity to earn passive income by participating in the validation of transactions on the blockchain network of supported coins, such as Polkadot (DOT), Cosmos (ATOM), and Tezos (XTZ). ',
-    url: 'https://www.kucoin.com/staking',
+    title: 'Peri Finance',
+    description: 'PERI Finance is a decentralized cross-chain synthetic issuance and derivative exchange protocol that provides unlimited liquidity on Polkadot network',
+    url: 'https://staking.peri.finance',
     image: porfolioImage11,
   },
 ];
@@ -330,8 +330,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'flyn.rider0x@gmail.com',
-      href: 'mailto:flyn.rider0x@gmail.me',
+      text: 'james.tomas0x@gmail.com',
+      href: 'mailto:james.tomas0x@gmail.me',
     },
     {
       type: ContactType.Location,
