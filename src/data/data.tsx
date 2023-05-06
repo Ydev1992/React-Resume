@@ -82,7 +82,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: "https://drive.google.com/file/d/1jSP8tebErSB1AcD2ipHBEpkuosUyun2G/view?usp=share_link",
+      href: "https://drive.google.com/file/d/1IIX-0oU-6FJKXAI5mrG2cDveS0LH-ivt/view?usp=share_link",
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
